@@ -1,6 +1,7 @@
 kafka:
   bootstrapAddress: localhost:9092
-  topicName: Fitness
+  firstTopicName: Fitness
+  secondTopicName: Reply
   groupId: base
 server:
   port: 8081
